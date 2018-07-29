@@ -1,0 +1,19 @@
+{
+  "name": "@chr33s/docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cp:waypoints": "cp ./node_modules/waypoints/lib/noframework.waypoints.min.js ./js/waypoints.js",
+    "cp:prism": "cp ./node_modules/prismjs/themes/prism-okaidia.css ./css/prism.css",
+    "prebuild": "npm run cp:prism && npm run cp:waypoints",
+    "build": "node build",
+    "start": "node index"
+  },
+  "devDependencies": {
+    "js-yaml": "3.12.0",
+    "lodash": "4.17.10",
+    "marked": "0.4.0",
+    "prismjs": "1.15.0",
+    "waypoints": "4.0.1"
+  }
+}
