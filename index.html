@@ -91,7 +91,7 @@ api<span class="token punctuation">.</span>kittens<span class="token punctuation
 <pre><code class="language-javascript"><span class="token keyword">const</span> kittn <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'kittn'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword">let</span> api <span class="token operator">=</span> kittn<span class="token punctuation">.</span><span class="token function">authorize</span><span class="token punctuation">(</span><span class="token string">'meowmeowmeow'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> kittens <span class="token operator">=</span> api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<span class="token keyword">let</span> kittens <span class="token operator">=</span> api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
 </blockquote>
@@ -127,7 +127,7 @@ Remember — a happy kitten is an authenticated kitten!
 <pre><code class="language-ruby"><span class="token keyword">require</span> <span class="token string">'kittn'</span>
 
 api <span class="token operator">=</span> <span class="token constant">Kittn</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token constant">APIClient</span><span class="token punctuation">.</span>authorize<span class="token operator">!</span><span class="token punctuation">(</span><span class="token string">'meowmeowmeow'</span><span class="token punctuation">)</span>
-api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code></pre>
+api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code></pre>
 <pre><code class="language-python"><span class="token keyword">import</span> kittn
 
 api <span class="token operator">=</span> kittn<span class="token punctuation">.</span>authorize<span class="token punctuation">(</span><span class="token string">'meowmeowmeow'</span><span class="token punctuation">)</span>
@@ -137,7 +137,7 @@ api<span class="token punctuation">.</span>kittens<span class="token punctuation
 <pre><code class="language-javascript"><span class="token keyword">const</span> kittn <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'kittn'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword">let</span> api <span class="token operator">=</span> kittn<span class="token punctuation">.</span><span class="token function">authorize</span><span class="token punctuation">(</span><span class="token string">'meowmeowmeow'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> max <span class="token operator">=</span> api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<span class="token keyword">let</span> max <span class="token operator">=</span> api<span class="token punctuation">.</span>kittens<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
 </blockquote>
@@ -151,7 +151,7 @@ api<span class="token punctuation">.</span>kittens<span class="token punctuation
 <p>This endpoint retrieves a specific kitten.</p>
 <aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
 
-<h3 id="http-request">HTTP Request</h3>
+<h3 id="http-request-1">HTTP Request</h3>
 <p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
 <h3 id="url-parameters">URL Parameters</h3>
 <p>Parameter | Description
