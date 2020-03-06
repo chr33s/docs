@@ -8,6 +8,16 @@ language_tabs:
   - javascript
 ---
 
+# Docs.md
+
+Simple markdown driven project documentation
+
+```bash
+npm run build
+npm start
+open "http://localhost:8080"
+```
+
 # Introduction
 
 Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
